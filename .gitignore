@@ -1,0 +1,9 @@
+# Github Actions Installs Nodejs Packages
+node_modules/
+
+# Github Actions Builds hugo Site
+docs/
+.hugo_build.lock
+
+# Script for building site locally
+build.py

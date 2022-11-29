@@ -1,0 +1,38 @@
+baseURL = "https://msmcs-robotics.github.io/"
+languageCode = "en-us"
+title = "MSC & MSMCS Robotics Club"
+publishDir = "docs"
+Paginate = 1000
+googleAnalytics = ""
+theme = "showcase"
+disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
+
+# this setting should always be set to false, otherwise it will break the section navigation bar
+pluralizelisttitles = false
+
+[params]
+  author = "MSC & MSMCS Robotics"
+  description = "The website of the MSC & MSMCS Robotics Club"
+  message = ""
+  hideAutoMenu = false
+  
+  # Pagination options
+  # display X number of items per page
+  paginate = 6
+  # overflow is organized on multiple pages
+  multipage = true
+
+  # Dark mode
+  darkMode = true
+
+[[menu.main]]
+  name = "Source"
+  url = "https://github.com/msmcs-robotics/msmcs-robotics.github.io"
+
+[social]
+  instagram = "https://www.instagram.com/msmcsrobotics/"
+  tiktok = "https://www.tiktok.com/@mscrobotics"
+  facebook = "https://www.facebook.com/profile.php?id=100083794482864"
+  twitter = "https://twitter.com/msmcsrobotics"
+  youtube = "https://www.youtube.com/channel/UCZWf6z_G_wB2OskOX8e_QOw"
+  twitch = "https://www.twitch.tv/mscrobotics"

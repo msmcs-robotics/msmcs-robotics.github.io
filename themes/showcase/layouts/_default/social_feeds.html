@@ -1,0 +1,121 @@
+{{ define "main" }}
+
+    <style>
+        .parent {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        .child {
+            position: absolute;
+            top: 19.5vw;
+        }
+
+        .child-1 {
+            border: 7px outset #0082F6; 
+            border-radius: 20px; 
+            width: 48vw;
+            height: 27vw;
+            margin: auto;
+            top: 16.75vw;
+            right: 1.5vw;
+        }
+
+        .child-2 {
+            border: 7px outset #0082F6; 
+            border-radius: 20px; 
+            max-width: 500px; 
+            min-width: 250px; 
+            margin: 2% auto 2% auto;
+            top: 26.5vw;
+            left: 1.5vw;
+        }
+
+        .child-3 {
+            border: 7px outset #0082F6; 
+            border-radius: 20px; 
+            width: 48vw; 
+            height: 16vw; 
+            margin: 2% auto 2% auto;
+            top: -1.5vw;
+            right: 1.5vw;
+        }
+
+        .child-4 {
+            border: 7px outset #0082F6; 
+            border-radius: 20px; 
+            width: 48vw;; 
+            height: 27vw;
+            margin: 2% auto 2% auto;
+            top: -1.5vw;
+            left: 1.5vw;
+        }
+
+        .child-5 {
+            border: 7px outset #0082F6; 
+            border-radius: 20px; 
+            width: 20vw; 
+            margin: 2% auto 2% auto;
+            top: 26.5vw;
+            left: 29vw;
+        }
+        
+    </style>
+
+    <div id="sm-embeds" class="parent">
+
+        <div id="twitch-embed">
+
+            <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+            <div id="twitch_wrapper" class="child child-1"></div>
+            <script type="text/javascript">
+            var options = {
+                width: "100%",
+                height: "100%",
+                channel: "mscrobotics",
+                parent: ["msc-robotics.github.io"]
+            };
+            var player = new Twitch.Player("twitch_wrapper", options);
+            player.setVolume(0.5);
+            </script>
+
+        </div>
+            
+        <div id="tiktok-embed">
+            <script async src="https://www.tiktok.com/embed.js"></script>
+            <blockquote class="tiktok-embed child child-2"
+                cite="https://www.tiktok.com/@mscrobotics" 
+                data-unique-id="mscrobotics" 
+                data-embed-type="creator">
+                <section> 
+                <a target="_blank" href="https://www.tiktok.com/@mscrobotics?refer=creator_embed">@mscrobotics</a> 
+                </section> 
+            </blockquote> 
+        </div>
+
+        <div class="instagram-embed">
+            <iframe 
+                src="https://snapwidget.com/embed/1015331" 
+                class="snapwidget-widget child child-3" 
+                allowtransparency="true" 
+                frameborder="0" 
+                scrolling="no">
+            </iframe>
+        </div> 
+
+        <div id="youtube-embed">
+            <iframe 
+                class="child child-4"
+                src="https://www.tubebuddy.com/quicknav/latestembed/UCZWf6z_G_wB2OskOX8e_QOw" 
+                title="Lates From The Youtube Channel">
+            </iframe>
+        </div>
+
+        <div id="twitter-embed" class="child child-5">
+            <a class="twitter-timeline" href="https://twitter.com/msmcsrobotics?ref_src=twsrc%5Etfw" data-tweet-limit="1">Tweets from MSC/MSMCS Robotics</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+
+    </div>
+
+{{ end }}
