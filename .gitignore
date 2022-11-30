@@ -1,5 +1,7 @@
 # Github Actions Installs Nodejs Packages
+# As well as builds css and js files
 node_modules/
+resources/
 
 # Github Actions Builds hugo Site
 docs/
@@ -7,3 +9,4 @@ docs/
 
 # Script for building site locally
 build.py
+
