@@ -3,8 +3,6 @@
     <a href="{{ .Site.BaseURL }}">&copy; {{ .Site.Params.Author }}</a></p>
 </footer>
 
-{{ template "_internal/google_analytics_async.html" . }}
-
 <script>
   const allTypes = ["all",  {{ range .Site.Sections }}"{{lower .Title}}",{{ end }}];
   const filter = (event, type) => {
