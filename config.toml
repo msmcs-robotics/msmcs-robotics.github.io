@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "MSC & MSMCS Robotics Club"
 publishDir = "docs"
 Paginate = 1000
-googleAnalytics = ""
+googleAnalytics = "G-T1ZFNTH76H"
 theme = "showcase"
 disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
 
