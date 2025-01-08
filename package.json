@@ -30,6 +30,7 @@
     "postcss": "^8.4.31",
     "postcss-cli": "^10.1.0",
     "postcss-import": "^15.1.0",
+    "showcase-hugo-theme": "file:",
     "tailwindcss": "^3.3.3"
   }
 }
