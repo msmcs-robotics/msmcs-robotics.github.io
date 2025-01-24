@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python on MSC/MSMCS Robotics</title><link>https://msmcs-robotics.github.io/tags/python/</link><description>Recent content in Python on MSC/MSMCS Robotics</description><generator>Hugo</generator><language>en</language><atom:link href="https://msmcs-robotics.github.io/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Hawkeye</title><link>https://msmcs-robotics.github.io/projects/hawkeye/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://msmcs-robotics.github.io/projects/hawkeye/</guid><description>&lt;blockquote>
+&lt;p>An introductory project to using OpenCV for facial recognition&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a href="https://github.com/msmcs-robotics/hawkeye">Project Github Link&lt;/a>&lt;/p>
+&lt;p>If the hyperlink does not work:&lt;/p>
+&lt;pre tabindex="0">&lt;code>https://github.com/msmcs-robotics/hawkeye
+&lt;/code>&lt;/pre></description></item></channel></rss>
