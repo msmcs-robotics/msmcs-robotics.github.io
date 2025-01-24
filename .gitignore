@@ -1,12 +1,4 @@
-# Github Actions Installs Nodejs Packages
-# As well as builds css and js files
-node_modules/
-resources/
-
-# Github Actions Builds hugo Site
 docs/
+public/
+.vscode/
 .hugo_build.lock
-
-# Script for building site locally
-build.py
-

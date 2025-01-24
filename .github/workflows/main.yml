@@ -20,18 +20,11 @@ jobs:
       - name: Update theme
         run: git submodule update --init --recursive
 
-      - name: Setup Node Packages
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16
-
-      - name: Install Node Packages
-        run: npm ci
-
       - name: Setup hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
+          extended: true
 
       - name: Build
         run: hugo --minify
@@ -41,6 +34,6 @@ jobs:
         with:
           personal_token: ${{ secrets.MSC_INTRA_BUILD_TOKEN }}
           external_repository: msmcs-robotics/msmcs-robotics.github.io
-          publish_dir: ./docs
+          publish_dir: ./public
           publish_branch: published
         #   cname: example.com

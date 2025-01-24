@@ -1,7 +1,16 @@
 ---
-title: Folding at Home
-date: 2022-11-24
-subtitle: 2022
-link: https://stats.foldingathome.org/team/1063932
-image: https://pbs.twimg.com/profile_images/53706032/Fold003_400x400.png
+title: Folding At Home
+type: page
 ---
+
+> [MSC Robotics Folding Team Link](https://stats.foldingathome.org/team/1063932)
+
+## About
+
+Discover the folding at home effort [here](https://foldingathome.org/)
+
+If the link does not work:
+
+```
+https://foldingathome.org/
+```
